@@ -58,9 +58,7 @@ export function ExploreBtn() {
             <Html>
       {isOpen
         ?  ( <div className="explore-popup">
-          <button className="close-btn" onClick={togglePopUp}>
-            X
-          </button>
+          
           <div className='pop-text'>
           <div className='paragraph'>
             You are about to enter the Sharona 
@@ -70,7 +68,12 @@ export function ExploreBtn() {
             Please share your feedback with chatbot.
           </div>
           {/* <a href='www.google.com' className='link' target='_blank'>staging.sharona.io</a> */}
-          <div className='link'><a href='https://www.google.com' target="_blank">staging.sharona.io</a></div>
+          <div className='link'><a href='https://www.google.com' target="_blank"><i class="bi bi-link-45deg"></i>staging.sharona.io </a>
+          
+          <button className="close-btn" onClick={togglePopUp}>
+          <i class="bi bi-x-circle"></i> close
+          </button>
+          </div>
           </div>
           </div>)
         : null}
