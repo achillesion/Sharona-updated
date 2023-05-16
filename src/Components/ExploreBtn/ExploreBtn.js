@@ -63,7 +63,7 @@ export function ExploreBtn() {
           </button>
           <div className='pop-text'>
           <div className='paragraph'>
-            you are about to enter the sharona 
+            You are about to enter the Sharona 
             decentralized application, currently in 
             beta-testing mode. <br/> <br/>
             Thank you in advance for participating!

@@ -14,6 +14,9 @@ const FooterIcon = () => {
     <a href='https://www.instagram.com/sharonadapp/' target="_blank">
     <i className="bi bi-instagram"></i>
     </a>
+    <a href='https://www.facebook.com/SharonaDApp/' target="_blank">
+    <i class="bi bi-facebook"></i>
+    </a>
 
     </div>
   )
